@@ -57,7 +57,19 @@ body {
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+
 /* --------------------------- Media Queries */
+
+/* Larger container for extra large screen */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+/* fixed top navbar on medium and up screens */ 
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
