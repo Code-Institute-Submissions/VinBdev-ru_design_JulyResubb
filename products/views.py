@@ -7,7 +7,6 @@ from .models import Product, Category
 
 def all_products(request):
     """ A view to show all products as well as include sorting + searching """
-
     products = Product.objects.all()
     query = None
     categories = None
@@ -37,7 +36,7 @@ def all_products(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "Please enter correct search criteria!")
+                messages.error(request, "Search failed... Try again!")
                 return redirect(reverse('products'))
             
             queries = Q(name__icontains=query) | Q(description__icontains=query)
