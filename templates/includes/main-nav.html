@@ -17,9 +17,9 @@
                 Artwork
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="art-link">
-                <a href="" class="dropdown-item">Paintings</a>
-                <a href="" class="dropdown-item">Photography</a>
-                <a href="" class="dropdown-item">All art</a>
+                <a href="{% url 'products' %}?category=paintings" class="dropdown-item">Paintings</a>
+                <a href="{% url 'products' %}?category=photography" class="dropdown-item">Photography</a>
+                <a href="{% url 'products' %}?category=paintings,photography" class="dropdown-item">All art</a>
             </div>
         </li>
 
@@ -28,9 +28,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Work</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a> 
+                <a href="{% url 'products' %}?category=new_work" class="dropdown-item">New Work</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a> 
             </div>
         </li>
     </ul>
