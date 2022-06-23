@@ -6,7 +6,7 @@ from .models import Product, Category
 # Created views below:
 
 def all_products(request):
-    """ A view to show all products as well as include """
+    """ A view to show all products as well as include sorting + searching """
 
     products = Product.objects.all()
     query = None
