@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse
+from django.shortcuts import render, redirect, reverse, HttResponse
 
 # Created views 
 
@@ -36,7 +36,7 @@ def add_to_bag(request, item_id):
 
     
 
-def adjust_bag(request, item_id):
+def adjust_from_bag(request, item_id):
     """ Adjust qty of different products in shopping bag """
 
     quantity = int(request.POST.get('quantity'))
