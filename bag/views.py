@@ -34,9 +34,8 @@ def add_to_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(redirect_url)
 
-    
 
-def adjust_from_bag(request, item_id):
+def adjust_bag(request, item_id):
     """ Adjust qty of different products in shopping bag """
 
     quantity = int(request.POST.get('quantity'))
@@ -62,7 +61,7 @@ def adjust_from_bag(request, item_id):
     return redirect(reverse('view_bag'))
 
  
-def remove_bag(request, item_id):
+def remove_from_bag(request, item_id):
     """ Adjust qty of different products in shopping bag """
 
     try:
