@@ -3,11 +3,11 @@ html {
 }
 
 body {
-    background: url('/media/blue-eyed-man-acrylic-2.jpg');
+    background: url('/media/ru_design_home.jpeg');
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: Lato;
+    font-family: cursive;
     font-weight: 900;
 }
 
