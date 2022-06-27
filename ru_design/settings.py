@@ -1,4 +1,5 @@
 import os 
+import dj_database_url
 """
 Django settings for ru_design project.
 
@@ -117,15 +118,14 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'ru_design.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
+#Database
+#https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+     'default': {
+        'ENGINE': 'django.db.backends.sqlite3',     
+        'NAME': os.path.join(BASE_DIR / 'db.sqlite3'),   
+        }
+ }
 
 
 # Password validation
