@@ -1,0 +1,20 @@
+Hi {{ order.full_name }}
+
+This is the confirmation email fomr your recent purchase of one of Ru's designs! 
+
+Order Number: {{ order.order_number }}
+Order date: (( order.date ))
+
+Order total: ${{ order.order_total }}
+Delivery: ${{ order.delivery_cost }}
+Grand total: ${{ order.grand_total }}
+
+As arranged, your order will be sent to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
+
+If you have any questions or issues with your order please email us at {{ contact_email }}
+
+Thanks again for choosing ru Design!
+
+Sincerely,
+
+Ru and team
