@@ -1,0 +1,7 @@
+.profile-form-input::placeholder{
+    color: grey;
+}
+
+#profile-update-form .form-control{
+    color: black;
+}
