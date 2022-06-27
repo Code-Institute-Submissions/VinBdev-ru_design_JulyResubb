@@ -1,0 +1,1 @@
+web: gunicorn ru_design.wsgi:application
