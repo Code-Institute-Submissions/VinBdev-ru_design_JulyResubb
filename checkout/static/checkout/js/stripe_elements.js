@@ -52,13 +52,14 @@ form.addEventListener('submit', function(ev) {
 
     var saveInfo = Boolean($('#id-save-info').attr('checked'));
     // Using {% csrf_token%} in form
-    var csrf_Token = $('input[name=csrfmiddlewaretoken"]').val();
+    var csrf_Token = $('input[name="csrfmiddlewaretoken"]').val();
     var postData = {
-        'csrfmiddlewaretoken': csrfToken,
+        'csrfmiddlewaretoken': csrf_Token,
         'client_secret': clientSecret,
         'save_info': saveInfo,
     };
     var url = '/checkout/cache_checkout_data/';
+    
 
     $.post(url, postData).done(function() {
         stripe.confirmCardPayment(clientSecret, {
