@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
 
 from .models import UserProfile
 from .forms import UserProfileForm
@@ -10,7 +11,8 @@ from checkout.models import Order
 @login_required
 def profile(request):
     """Displaying users profile """
-    profile = get_object_or_404(UserProfile, user=request.user)
+    user = User.objects.get(username=request.user.username)
+    profile = get_object_or_404(UserProfile, user=user)
 
     if request.method == 'POST':
         form = UserProfileForm(request.POST, instance=profile)
@@ -29,6 +31,7 @@ def profile(request):
         'orders': orders,
         'on_profile_page': True
     }
+    return render(request, template, context)
 
 
 def order_history(request, order_number):
