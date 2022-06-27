@@ -80,7 +80,7 @@ def add_product(request):
         if form.is_valid():
             product = form.save()
             messages.success(request, 'Product added successfully!')
-            return redirect(reverse,('product_detail', args=[product.id])) 
+            return redirect(reverse('product_detail', args=[product.id]))
         else:
             messages.error(request, 'Failure. Please ensure criteria is valid.')
     else:
@@ -106,7 +106,7 @@ def edit_product(request, product_id):
         if form.is_valid():
             form.save()
             messages.success(request, 'Produce successfully updated')
-            return redirect(reverse,('product_detail', args=[product.id]))
+            return redirect(reverse('product_detail', args=[product.id]))
         else: 
             messages.error(request, 'Product update has failed. Please check form.')
     else:

@@ -5,9 +5,10 @@ from django.conf import settings
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
+
 from products.models import Product
-from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
+from profiles.forms import UserProfileForm
 from bag.contexts import bag_contents
 
 import stripe
@@ -113,7 +114,7 @@ def checkout(request):
 
         if request.user.is_authenticated:
             try:
-                profile=UserProfile.objects.get(user=request.user)
+                profile = UserProfile.objects.get(user=request.user)
                 order_form = OrderForm(initial={
                     'full_name': profile.user.get_full_name(),
                     'email': profile.user.email,
@@ -125,8 +126,8 @@ def checkout(request):
                     "street_address2": profile.default_street_address2,
                     "county": profile.default_county,
                 })
-            except UserProfile(.DoesNotExist:
-                order_form = OrderForm())
+            except UserProfile.DoesNotExist:
+                order_form = OrderForm()
         else:
             order_form = OrderForm()
 

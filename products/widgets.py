@@ -1,5 +1,6 @@
 from django.forms.widgets import ClearableFileInput
-from django.utils.translation import getting_lazy as getting_lazy
+from django.utils.translation import gettext_lazy as _
+
 
 class CustomclearableFileInput(ClearableFileInput):
     clear_checkbox_label = _('Remove')
