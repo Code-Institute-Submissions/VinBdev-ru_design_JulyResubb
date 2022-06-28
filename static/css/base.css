@@ -1,7 +1,6 @@
 html {
     height: 100%;
 }
-
 body {
     background: url('/media/ru_design_home.jpeg');
     background-size: cover;
@@ -10,7 +9,6 @@ body {
     font-family: Anek Malayalam;
     font-weight: 900;
 }
-
 img{
     max-height: 400px;
     min-height: 150px;
@@ -23,61 +21,43 @@ img{
     height: 1.5rem;
     width: 1.5rem;
 }
-
 .logo-font{
     text-transform: uppercase;
 }
-
 .main-logo-link{
     width: fit-content;
 }
-
 .shop-now-button {
     background: black;
     color: white;
     min-width: 260px;
 }
-
 .btn-black {
     background: black;
     color: white;
 }
-
 .btn-outline-black {
     background: white;
     color: black !important;
     border: 1px solid black;
 }
-
-.btn-outline-black:hover,
-.btn-outline-black:active,
-.btn-outline-black:focus{
+.btn-outline-black:hover, .btn-outline-black:active, .btn-outline-black:focus{
     background: black;
     color: white !important;
 }
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
+.shop-now-button:hover, .shop-now-button:active, .shop-now-button:focus, .btn-black:hover, .btn-black:active, .btn-black:focus {
     background: #222;
     color: white;
 }
-
 .text-black {
     color: #000 !important;
 }
-
 .border-black {
     border: 1px solid black !important;
 }
-
 .bg-black {
     background: #000 !important;
 }
-
 .overlay {
     height: 100%;
     width: 100%;
@@ -87,12 +67,10 @@ img{
     background: white;
     z-index: -1;
 }
-
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
-
 .btt-button{
     height: 42px;
     width: 42px;
@@ -100,130 +78,103 @@ a.category-badge > span.badge:hover {
     bottom: 10px;
     right: 10px;
 }
-
-.btt-link,
-.update-link,
-.remove-item {
+.btt-link, .update-link, .remove-item {
     cursor: pointer;
 }
-
 input[name='q']::placeholder{
     color: grey;
 }
-
 .message-container{
     position: fixed;
     top: 72px;
     right: 15px;
     z-index: 999999999999;
 }
-
 .custom-toast{
     overflow: visible;
 }
-
 .toast-capper{
     height: 2px;
 }
-
 /* Styling for Arrows originates from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
     right: 36px;
 }
-
 /* Colors for toast arrows resource from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
-
 .arrow-secondary {
     border-bottom-color: #6c757d !important;
 }
-
 .arrow-success {
     border-bottom-color: #28a745 !important;
 }
-
 .arrow-danger {
     border-bottom-color: #dc3545 !important;
 }
-
 .arrow-warning {
     border-bottom-color: #ffc107 !important;
 }
-
 .arrow-info {
     border-bottom-color: #17a2b8 !important;
 }
-
 .arrow-light {
     border-bottom-color: #f8f9fa !important;
 }
-
 .arrow-dark {
     border-bottom-color: #343a40 !important;
 }
-
 .bag-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
 }
-
 .bag-notification-wrapper{
     height: 1px;
     overflow-x: hidden;
     overflow-y: auto;
 }
-
 form#signup_form.signup{
     padding-top: 50px;
     padding-left: 50px;
-    align-items: center; 
+    align-items: center;
     color: black;
     font-size: 1.5rem;
 }
-
 /* --------------------------- Media Queries */
-
 /* Larger container for extra large screen */
 @media (min-width: 1200px) {
     .container {
         max-width: 80%;
-    }
+   }
 }
-
-/*Allaut formatting       */
-
+/*Allaut formatting */
 .allauth-form-inner-content p{
-    margin-top: 1.5rem; /* mt-4 */
+    margin-top: 1.5rem;
+   /* mt-4 */
     color: #555;
 }
-
 .allauth-form-inner-content input{
     border-color: black;
     border-radius: 0;
 }
-
 .allauth-form-inner-content label:not([for='id_remember']){
     display: none;
 }
-
 .allauth-form-inner-content input::placeholder{
     color: grey;
 }
-
-.allauth-form-inner-content button,
-.allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
+.allauth-form-inner-content button, .allauth-form-inner-content input[type='submit'] {
+   /* btn */
+    display: inline-block;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -238,28 +189,23 @@ form#signup_form.signup{
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0;
-
-    /* standard bootstrap btn transitions */
+   /* standard bootstrap btn transitions */
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
-.allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+.allauth-form-inner-content button:hover, .allauth-form-inner-content input[type='submit']:hover {
+    color: #fff;
     background-color: #222;
     border-color: #222;
 }
-
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+    color: #17a2b8;
+   /* text-info */
 }
-
 /* Product form area */
 .btn-file{
     position: relative;
     overflow: hidden;
 }
-
 .btn-file input[type="file"] {
     position: absolute;
     top: 0;
@@ -269,20 +215,16 @@ form#signup_form.signup{
     opacity: 0;
     cursor: pointer;
 }
-
 .custom-checkbox .custom-control-label::before{
     border-radius: 0;
     border-color: red;
 }
-
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
     background-color: red;
     border-color: red;
     border-radius: 0;
 }
-
-
-/* fixed top navbar on medium and up screens */ 
+/* fixed top navbar on medium and up screens */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -290,55 +232,42 @@ form#signup_form.signup{
         right: 0;
         left: 0;
         z-index: 1030;
-    }
-
+   }
     .header-container {
         padding-top: 164px;
-    }
+   }
 }
-
-/* padding the header so navbar collapses in mobile view  */
+/* padding the header so navbar collapses in mobile view */
 @media (max-width: 991px) {
     .header-container{
         padding-top: 116px;
-    }
-
+   }
     body {
         height: calc(100vh - 116px);
-    }
-
+   }
     .display-4.logo-font.text-black{
         font-size: 2rem;
         align-self: right;
         align-items: right;
-    }
-
+   }
     .nav-link{
         padding: 0.15rem;
-    }
-
+   }
     .navbar-toggler{
         padding: .6rem .6rem;
         font-size:1rem;
-
-    }
-
+   }
     #delivery-banner h4{
         font-size: .9rem;
-    }
-
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0{
+   }
+    .btn.btn-outline-black.rounded-0, .btn.btn-black.rounded-0{
         padding: .4rem .4rem;
-    }
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg{
+   }
+    .btn.btn-outline-black.rounded-0.btn-lg, .btn.btn-black.rounded-0.btn-lg{
         padding: .4rem .4rem;
         font-size: .79rem;
-    }
-
+   }
     .increment-qty, .decrement-qty{
         padding: .25 .25 !important;
-    }
+   }
 }
-
