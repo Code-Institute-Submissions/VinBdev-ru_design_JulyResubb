@@ -47,15 +47,12 @@ My plans for this application would be to test it with family, friend and team m
 #### Site Interface:
 The website has been built with a simplistic layout. the intention of this is to drive sales of the artwork as much as possible. The site was built with the intention of both Ru and a site visitor being able to go to the site and for Ru to be able to Create, Read, Update and Delete his artwork off of the site as he may require or to add items to his site for future business growth.
 
-for those that are not signed in, a four page layout for users and then a 5 page layout for the manager.
-
 ##### New User:
-When a new user goes to this site they can view the sales but do not have any permissions to edit/ delete or create any sales. They can also view the dashboard to learn about the team structure and also have the ability to then register and create an account.
+When a new user goes to this site they can view the artwork but do not have any permissions to edit/ delete or create any products. They also limited access to the site which encourages them to create a profile and track their orders.
 
-##### Salesperson/ User:
-A User is an active sales member of the team. Once they log in, they have a 4 page layout which is as follows: The Home/ Sales page to view all sales submitted, this is to view their own and colleagues sales. By doing this it demonstrates an open and transparent relationship between the team and encourages healthy sales competition. They do have permissions to create, read, update and delete their own sales from this page. The Third Page is to create an upload a new sale, this information is synced up to the MongoDB so any changes are recognised both on the site and in the database.
-
-##### Manager :
+##### Existing User:
+An existing user is someone who has an account and is a returning customer.
+##### Admin:
 A manager has the most privileges as they have admin access to everything. This is because the app is designed for small teams and to help managers communicate better with sales staff as well as support the reporitng process for Senior Management. They have access to all 4 pages previously mentioned but also an additional page which allows them to create , read, update and delete the users on their team. this too is synced with MongoDB  to enable transparent collection of data as well as allowing the team to grow and be dynamic in size.
 
 ### User Stories:
@@ -258,8 +255,8 @@ Here are my wireframes for multiple pages of the Predict Your Sales app.
 * The checkbox function is not a required field as the same may not need approval.
 *
 ### Lighthouse Results
-Performance = 98%
-Accessibility = 92%
+Performance = 87%
+Accessibility = 95%
 Best Practices = 100%
 SEO = 91%
 
