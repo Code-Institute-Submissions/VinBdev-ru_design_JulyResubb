@@ -7,11 +7,14 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: cursive;
+    font-family: Anek Malayalam;
     font-weight: 900;
 }
 
-
+img{
+    max-height: 400px;
+    min-height: 150px;
+}
 /* Resource is from Bulma */
 .icon {
     align-items: center;
@@ -178,6 +181,14 @@ input[name='q']::placeholder{
     height: 1px;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+form#signup_form.signup{
+    padding-top: 50px;
+    padding-left: 50px;
+    align-items: center; 
+    color: black;
+    font-size: 1.5rem;
 }
 
 /* --------------------------- Media Queries */
