@@ -63,14 +63,14 @@
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
             <ul class="list-inline list-unstyled text-center text-lg-right my-0">
               <li class="list-inline-item dropdown">
-                <a href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" class="text-black nav-link" aria-expanded="false">
+                <a href="#" id="user-option" data-toggle="dropdown" aria-haspopup="true" class="text-black nav-link" aria-expanded="false">
                   <div class="text-center">
                     <div><i class="fas fa-user fa-lg"></i></div>
                     <p class="my-0">My Account</p>
                   </div>
                 </a>
                 <!-- Security for login permissions-->
-                <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                <div class="dropdown-menu border-0" aria-labelledby="user-option">
                   {% if request.user.is_authenticated %}
                     {% if request.user.is_superuser %}
                       <a href="{% url 'add_product' %}" class="dropdown-item">Product management</a>
