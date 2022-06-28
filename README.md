@@ -32,28 +32,22 @@ Ru was born in Dublin city in the early 90's and was given the Irish name Ruadha
 Ru himself is a very humble person and not the art work shown in this project dates back over 10-15 years so without the site being created the beautiful artwork would have stayed hidden away in a folder under a staircase. This project began as a brief and basic idea in order to build and submit the project on time but it has ignited an interest for further development and I very much look forward to continuously adding on to the project and securing it further for public use.
 
 #### The Anonymous Visitor:
+The site itself is builf in full so that anyone from anywhere can purchase the artwork of their choice without having to create an account. This generally will provide the users with less pain points when going through the ecommerce payment process. Instead of getting bogged down with providing information and personal data, they can just choose the billing and delivery address and they will be able to order. The only negative aspect to this is that they will not be able to view their order history should they be return vistors in the future.
 
 #### The Regular Visitor:
-
-
-1. The Sales professional: Once they have a conversation / confirmation of a sale being made they can upload this on the Predict Your Sales platform. The purpose of uploading the prospective sale is that each user will be asked to provide the customer name, amount, close date and description. Various companies tend to use different forms or abbreviations for asking these 4 questions so the app can be used by any organisation and most importantly, these are the same 4 questions the manager will ask and require for their own reporting and conversations with management.
-2. The Sales Manager: Once the manager logs in to the portal they will have a dashboard which shows an overall view of each sales person in an accordion. When they click on each salesperson, it will bring up a snapshot of the predicted sales. The 4 questions will be answered here which will make it very convenient for reporting purposes.
-
-These are as follows:
-1. Name: this is where the account name or customer name will go.
-2. Amount: This will have the total value and deal size, to make things easier for forecasting and reporting purposes.
-3. Description: Describe the conversation, need and buying process.
-4. Time: When is the sale expected to close.
+The site really encourages active users to create profiles and gather the order history of their purchases. This as mentioned is not a requirement however with the plans to grow this app and business, ideally we will encorporate a favouriting system where users can highlight their favourite pieces as well as build a contact us page which will include a form encouraging vistors to make enquiries about freelance work and potentially free lance art classes!
 
 
  #### Long Term Strategy:
-The long term plan for this would be to continuously add on various features as the apps are used. Including a feedback button at the bottom of the salespersons dashboard, this is where they can highlight what might make the job easier for the person. Inevitably this could help develop the work relationship further and encourage more proactive and creative ideas from all staff members. This would also mean that these ideas have a reference point for who came up with the idea as well which in turn ensures trust but also career development.
+The long term plan for this would be to continuously add on various features as the apps are used. Including a feedback button at the bottom of the about us page which would essentially highlight informatoin, awards and accolades that Ru has won over his years in industry as well as a short section on his time in theEntertainment industry. this would help build the image of ru as a professional artist and encourage Ru to come and host art partys! Not only would this generate more traffic to the site but it would definitely help Ru's business strategy and growth.
 
-My plans for this application would be to test it with my own role and even see if my team members at work would want to use an application for tracking their sales.
+My plans for this application would be to test it with family, friend and team members at work to see if any of them find the app convenient to use but also to see if there is any interest in Ru's art as I believe he can really succed in this field if he gets some small traction at the start.
 
 
 #### Site Interface:
-The website has been built with a simplistic 3 page layout for those that are not signed in, a four page layout for users and then a 5 page layout for the manager.
+The website has been built with a simplistic layout. the intention of this is to drive sales of the artwork as much as possible. The site was built with the intention of both Ru and a site visitor being able to go to the site and for Ru to be able to Create, Read, Update and Delete his artwork off of the site as he may require or to add items to his site for future business growth.
+
+for those that are not signed in, a four page layout for users and then a 5 page layout for the manager.
 
 ##### New User:
 When a new user goes to this site they can view the sales but do not have any permissions to edit/ delete or create any sales. They can also view the dashboard to learn about the team structure and also have the ability to then register and create an account.
@@ -320,7 +314,7 @@ Actual Result: Emails were not sent
 Severity/Priority: High priority bug fix as without navbar there would be a very poor UI and lack of navigation
 [View bug commit and fix Here](https://github.com/VinBdev/Predict_Your_Sales/commit/38e41c55481f7ecd448bd8344cbf8ea99dc80354)
  
- 29th of April 2020
+ 
  
 #### Passwords not hidden when created by user
 Title: Form Issues
