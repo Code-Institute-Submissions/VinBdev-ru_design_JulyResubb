@@ -14,12 +14,27 @@ The site has been built with the intention for users to creat and build a user p
 
 The motivation for this site came from a childhood friend of mine who was always a very skilled artist. His work has gathered and grown over the years as he never pursued a career as an artist before now. Prior to this he worked in the entertainment sector as an editor for TV shows so this project really allowed him to go back to his routes and reignite the passion he has for art.
 
-Ru himself is a very humble person and not the art work shown in this project dates back over 10-15 years so without the site being created the beautiful artwork would have stayed hidden away in a folder under a staircase. This project began as a brief and basic idea in order to build and submit the project on time but it has ignited an interest for further development and I very much look forward to continuously adding on to the project and securing it further for public use.
-
 Purchasing anything online comes with risk involved and when purchasing high valued products, users can be even more skeptical of making a purchase. Especially due to the size of the art piece as well as the materials involved in creating the piece. Therefore the description of each piece includes the material it was made from and the product detail page also has the size and dimentions of each size
 
 
-As many people know, often sales professionals can have a stressful role. When targets need to be hit, sales need to be made, a lot of pressure is put on the sales person and on their managers to feed back accurate predictions of what revenue is coming in. This application is designed to take a lot of the stress and anxiety out of the equation. This is done by having a simplified platform allowing both the manager and the sales professional different forms of access.
+### View the deployed Project Here
+[Visit Live Site Here](https://ru-design.herokuapp.com/)
+
+### Visit the Github Repo Here
+[Visit Live Site Here](https://github.com/VinBdev/ru_design)
+
+
+#### User Stories:
+
+#### Ru the artist:
+Ru was born in Dublin city in the early 90's and was given the Irish name Ruadhan Murray but has gone as Ru since he was a small child. After his birth in the Ratunda hospital Ru and his family moved to the remote area of Ratoath in county Meath which had a populatoin of 2,000 at the time and has been a rapid development area ever since with over 10,000 current residents.The area has seen many changes in this time and some of Ru's art depicts this especially with the photography. ru has always ahd a natuiral passion and drive for art however in previous years he feared that monopolising his interests may turn this into a disinterest and it is due to this that he never pursued a career as an artist.
+
+Ru himself is a very humble person and not the art work shown in this project dates back over 10-15 years so without the site being created the beautiful artwork would have stayed hidden away in a folder under a staircase. This project began as a brief and basic idea in order to build and submit the project on time but it has ignited an interest for further development and I very much look forward to continuously adding on to the project and securing it further for public use.
+
+#### The Anonymous Visitor:
+
+#### The Regular Visitor:
+
 
 1. The Sales professional: Once they have a conversation / confirmation of a sale being made they can upload this on the Predict Your Sales platform. The purpose of uploading the prospective sale is that each user will be asked to provide the customer name, amount, close date and description. Various companies tend to use different forms or abbreviations for asking these 4 questions so the app can be used by any organisation and most importantly, these are the same 4 questions the manager will ask and require for their own reporting and conversations with management.
 2. The Sales Manager: Once the manager logs in to the portal they will have a dashboard which shows an overall view of each sales person in an accordion. When they click on each salesperson, it will bring up a snapshot of the predicted sales. The 4 questions will be answered here which will make it very convenient for reporting purposes.
@@ -56,10 +71,7 @@ This user story will follow a new staff member (Woody) who joins a new company t
 #### Manager
 Admin is an experienced Sales Manager, having worked in 2 of the largest tech organisations prior to this role, they have begun a new company mission which now caters for a smaller team of well trained salespeople to take advantage of some new territories and business opportunities. If successful, the team can grow to a much larger team and therefore each sale is of the utmost importance. Therefore they have decided to use Predict Your Sales in order to track, monitor and guide the team to success in an organised and much less stressful fashion.
  
-
-### View the deployed Project Here
-[Visit Live Site Here](https://predictyoursales.herokuapp.com/)
-
+ 
 ### Business Goals
 * To increase the volume of sales.
 * To allow every salesperson the right and ability to contribute to the team targets.
@@ -369,16 +381,17 @@ Youtube and other articles referenced are as follows :
 * https://blog.hubspot.com/sales/habits-to-become-a-more-effective-salesperson
 
 ### Acknowledgements
-* I was inspired to create this site after being unsure as to where I can go to help organise my own sales pipelines and give more accurate feedback to management.
+* I was inspired to create this site by my friend Ru who I've always admired his creativity.
 * I would often be curious as to what other sales people were doing in terms of performance and what I can learn form them.
 * I also received various links and resources from my mentor Brian Macharia
 
 ### Disclaimer
 * This project is for educational purposes only.
 
-### The Future of Predict Your Sales
-* Once I have completed the Full Stack Software Development programme I would like to come back to this project and add on the following two features.
+### The Future of Ru Design
+* I would like to come back to this project and add on a lot mor art work as well as continuously add more stying to make the overall site more appealing.
 
-* An option for users to make full interactive accounts in a profile section with images, personalised journey goals and accomplishments.
+* Ru himself has began his journey of creating art again and would like to see about selling his art in the future. For this reason, I would love to add a bio section on the hompage but due to time constraints I was unable to do sobut will return in the comin weeks to add this feature.
+
 
 ##### Thank you very much for reading my Readme.md file. I welcome feedback and hope that you have found this file beneficial while researching Predict Your Sales!
