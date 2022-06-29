@@ -27,7 +27,7 @@ src="/workspace/ru_design/media/all-devices-black.jpg"
 
 ![Ru Design ] src="../media/all-devices-black.jpg" "Title"
 
-![Site on various devices](../ru_design/media/all-devices-black.jpg "Title")
+![Site on various devices](../ru_design/media/all-device-view/all-devices-black.jpg "Title")
 
 #### User Stories:
 
