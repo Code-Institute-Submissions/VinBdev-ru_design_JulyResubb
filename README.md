@@ -23,6 +23,7 @@ Purchasing anything online comes with risk involved and when purchasing high val
 ### Visit the Github Repo Here
 [Visit Live Site Here](https://github.com/VinBdev/ru_design)
 
+![Ru Design ](../media/all-devices-black.jpg? "Title")
 
 #### User Stories:
 
@@ -101,7 +102,7 @@ My aim for this design was to use blue, black and white as the primary contrasti
 
 ### Wireframe Mockups:
 Here are my wireframes for multiple pages of the Ru Design.
-![Ru Design wireframe](../media/img.jpg?raw=true "Title")
+![Ru Design wireframe](../media/ru_design_wireframe.jpg?raw=true "Title")
 
 
 ### Features
