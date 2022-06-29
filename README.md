@@ -45,146 +45,132 @@ My plans for this application would be to test it with family, friend and team m
 
 
 #### Site Interface:
-The website has been built with a simplistic layout. the intention of this is to drive sales of the artwork as much as possible. The site was built with the intention of both Ru and a site visitor being able to go to the site and for Ru to be able to Create, Read, Update and Delete his artwork off of the site as he may require or to add items to his site for future business growth.
+The website has been built with a simplistic layout. The intention of this is to drive sales of the artwork as much as possible. The site was built with the intention of both Ru and a site visitor being able to go to the site and for Ru to be able to Create, Read, Update and Delete his artwork off of the site as he may require or to add items to his site for future business growth.This functionality is mirrored for users as well they do not have the ability to make product changes however they can update the profile information as they please which means they can order proactively with their delivey details ready to go. 
+
+### User Stories:
 
 ##### New User:
 When a new user goes to this site they can view the artwork but do not have any permissions to edit/ delete or create any products. They also limited access to the site which encourages them to create a profile and track their orders.
 
 ##### Existing User:
-An existing user is someone who has an account and is a returning customer.
+An existing user is someone who has an account and is a returning customer. They have been to the site and know the navigation is simplistic in functoinand layout and if they already have an idea of what they want they can simpl use the search bar for a direct link to the product of interest or can use the various filter options available.
+
 ##### Admin:
-A manager has the most privileges as they have admin access to everything. This is because the app is designed for small teams and to help managers communicate better with sales staff as well as support the reporitng process for Senior Management. They have access to all 4 pages previously mentioned but also an additional page which allows them to create , read, update and delete the users on their team. this too is synced with MongoDB  to enable transparent collection of data as well as allowing the team to grow and be dynamic in size.
+An Admin has the most privileges as they have admin access to everything. This is because the app is designed for anonymous and return visitors and encouraged to increase the volume of sales. The admin however in this case is actually Ru, being an artist the creative passion can take over and therefore I have decided to give him the ability to add products to his site as he pleases. This very much fits in with his plans for developing is artwork further and potentially using this site to publish and sell his freelance work. The Admin has the ability to create , read, update and delete the products on the site. This too is synced with MongoDB to enable transparent collection of data as well as allowing the team to grow and be dynamic in size. 
 
-### User Stories:
-#### Sales Person
-This user story will follow a new staff member (Woody) who joins a new company that is already using the Predict Your Sales application. When this new member began, they were instructed to create an account just like the other salespeople will have done. Or if the Sales Manager prefers they can create the account for them. The salesperson can have an amount of previous ability, so the app is available for all levels of experience and is only a tool to help with organising sales pipelines and forecasting.
-
-#### Manager
-Admin is an experienced Sales Manager, having worked in 2 of the largest tech organisations prior to this role, they have begun a new company mission which now caters for a smaller team of well trained salespeople to take advantage of some new territories and business opportunities. If successful, the team can grow to a much larger team and therefore each sale is of the utmost importance. Therefore they have decided to use Predict Your Sales in order to track, monitor and guide the team to success in an organised and much less stressful fashion.
- 
  
 ### Business Goals
-* To increase the volume of sales.
-* To allow every salesperson the right and ability to contribute to the team targets.
-* To allow transparency and better communication between salespeople and management.
-* To inevitably enable sales professionals to have a much better quality of work life, so they do not feel an abundance of stress and pressure over company goals.
-
+* To increase the volume of online sales.
+* To allow every user the right and ability to purchase any products of their choice.
+* to encourage return visitors and customer who can make multiple purchases.  
+* To grow the demand and interest in freelance art for Ru.
+* To showcase the art that ru has created over the years. Many artists will have folders of great work that would not see the light of day without projects like this.
 
 ### User Goals:
-* To provide a simple yet easy flowing website capable for users of varying tech abilities to get easy access to sales information,e.g. if a new member joined the team and took over some sales/ accounts.
-* To encourage the next team members comin on board that this is an organised and structured team that collaborates to success.
-* To provide accurate and concise information regarding sales predictions which will put less stress on Senior Management, Middle Management as well as sales teams.
-* To provide the user with helpful links and motivational resources.
-*
+* To provide a simple yet easy flowing website capable for users of varying tech abilities.
+* To easily purchase items for themselves/ gifts for others.
+* To encourage other artists to reflect on their own work and to celbrate art for what it is.
+* To provide the user with helpful inisghts in terms of product descriptions and sizes.
+* To provide the user with everything they need to make an educated purchasing decision.
+* 
 ###  Target Market & User Stories:
 #### Target Market:
-* Any salesperson with an interest in managing their own sales pipeline
-* Any manager looking to responsibly and equally manage sales people
-* Any company with an interest in accurate forecasting of sales
+* Any person with an interest in art
+* Any person who wants to support Irish businesses from anywhere in the world.
+* Any person who wants inspiration for their own career goals or artistic design intentions. 
+* Any company looking to freshen up the office.
+* Anyone looking to refurbish/ remodel their home.
 
 
 ### UX Design Stages
 #### Strategy
-My goal for this design was to allow ease of access to information as well as allowing all types of users to upload sales information which means they do not need to remember every single sale/ account off the top of their head.
+My goal for this design was to allow ease of access to information as well as allowing all the admin to change and update product information which means they do not need to remember every product off the top of their head and can refer back to previous work easily too. The startegy for this is to allow a central point for Ru to host his art work and to collate a customer base and following.
 
 #### Scope
- For users of the site, I wanted to allow easy navigation across the 3-5 page structure depending on user permissions. This is to enable new members of the team to easily make their way to the register page or sales page if they are already new sales. Or for newcomers to read about how it all works in the dashboard section.
+ For users of the site, I wanted to allow easy navigation across site structure depending on user permissions. This is to enable new users on the site to easily make their way to the register page or login page if they are already users. For non registerd users the site is limited in functionality and page views to simplify the eperince and focus more on selling the art work.
+
 
 #### Structure
-The informational design will be very simple and easy to follow, as this app will have both experienced and non experienced users, I want to appeal to the general audience. The dashboard will have a short about section explaining how and why the app is used. This will provide insight but also encourage new members to utilize the tool if they see colleagues being even more successful from it.
+The informational design will be very simple and easy to follow, as this app will have both experienced and non experienced users, I want to appeal to the general audience. The homepage will have a navbar that is consistent across the site on every page as well as a hero image and central button to go to the products page and start shoppinh. This will provide insight in terms of site navigation but also encourage users to get in to the product details of each piece.
 
 #### Skeleton
-The navigation bar shall allow easy access to any page as well as clear instructions for the non-technical visitors to the site. Each page has a clear descriptive title as I wanted any user to have a clear and easy way to either sign up to become a member or to get the information they need to go to an event without having to sign up in case they are not tech savvy.This feature can be seen on many websites and therefore re enforces the functionality of the site.
+The navigation bar allows easy access to any page (once logged in) as well as clear button markers for the non-technical visitors to the site. Each page has a clear descriptive title as I wanted any user to have a clear and easy way to either sign up to become a member or to get the information they need to go to an event without having to sign up in case they are not tech savvy.This feature can be seen on many websites and therefore re enforces the functionality of the site.
 
 #### Surface
-My aim for this design was to use dark grey and white as the primary contrasting colors to indicate levels of importance to the various sections (navigation bar/ dashboard section/ login/ logout/ register/ manager users and new sales. This is to give a professional, sleek yet practical feel to the site where users are not being overwhelmed with information, they only see what is relevant.
+My aim for this design was to use blue, black and white as the primary contrasting colors to indicate levels of importance to the various sections (navigation bar/ dashboard section/ login/ logout/ register/ existing users and new users. This is to give a professional, sleek yet practical feel to the site where users are not being overwhelmed with information, they only see what is relevant.
 
 ### Wireframe Mockups:
-Here are my wireframes for multiple pages of the Predict Your Sales app.
+Here are my wireframes for multiple pages of the Ru Design.
+![Ru Design wireframe](../media/img.jpg?raw=true "Title")
 
- PDF Attached Here
 
 ### Features
-#### Home/ Sales Page
-* Initially there is a consistent navigation bar across all 3-5 pages allowing access to Home, Dashboard, New Sales, Manage Users, Login/ Out / Register Page.
-
-* There is a page titled "Sales in Progress" as once a sale has been closed won or closed lost the sale will be updated or deleted from the app.
+#### Home Page
+* Initially there is a consistent navigation bar across all pages allowing access to Home, Products, Login/ Out / Register Page. 
  
-* There is a search bar below this giving users a quick way to find a specific sale they may need to update.
+* There is a search bar at the top of every page, this giving users a quick way to find a specific product and they can search any key word that may be in name or description of the product.  
 
-* Below this I have created a section with some collapsible components, each component is a sale. If the user created that sale they can also edit that sale or delete the sale. They can view other colleagues sales but do not have permission to edit or change them in any way.
+* Below this, I have the navbar as previously mentioned, if the user is logged in as a customer or as admin they will have other options available on the navbar such as product management section and Profile editing section which also gives an order summary.
 
-* And finally a footer with a message and disclaimer stating this project is for educational purposes only.
+* Then in center of th page you will see the hero image. This is a paint brush mid stroke of a bright blue paint. I chose this as I wanted to choose a simplistic hero image that would highligh the button to start shopping and not make the home page to crowded in terms of the real estate available.
 
-#### Dashboard Page
-* Initially there is a consistent navigation bar across all 3-5 pages allowing access to Home, Dashboard, New Sales, Manage Users, Login/ Out / Register Page.
+* Finally there is a central button directing users to go view products and start shopping.
 
-* There is a page titled "Sales Dashboard" positioned at the top.
+* I did not add a footer to the site however this would be one of my future development plans to encourage a social media following for Ru Designs and encorporate these links at the footer. 
 
-* Below this created a series of cards to explain the following for the user profile:
-##### User Profile Information
-1. Role Description
-2. Salesperson App Permissions
-3. Career Progression
-4. Bonuses & Pay
+#### Product Management Page
+* Initially there is a consistent navigation bar across all pages allowing access to Home, Products, Login/ Out / Register Page. 
 
-* There are also Sale Manager and Salespeople Resources below each card to provide motivational and organisational support.
+* There is a page titled Products positioned at the top of the page. This contains 36 various pieces of artwork which can be purchased directly from the site.
 
-* And finally a footer with relevant links to various social media pages of the group.
+* The products themselves are mobile responsive using bootstrap containers, rows and columns I was able to structure this around mobile users.
 
-#### New Sales Page
-* Initially there is a consistent navigation bar across all 3-5 pages allowing access to Home, Dashboard, New Sales, Manage Users, Login/ Out / Register Page.
+* There is defensive programming in place here so if not an dmin they will be brought to the login page.
 
-* This page contains a form where both users and admins can create a new sale. Sellers will hopefully be creating new sales regularly whereas the Admin may have to create sales due to a shortage of staff or covering for one of their team members.
+* Once a user chooses the art they prefer they will add this to cart, meaning they do not leave the page an can continue to be inspired and purchase more art.
 
-* The form contains 5 sections which 4 are required to submit your sales successfully, they are as follows:
-1. Customer Name
-2. Sale amount
-3. Sale Description
-4. Close Date
-5. This is an optional button to choose whether the sale needs approval especially in cases where a discount may be offered.
+##### Profile Page
+* Initially there is a consistent navigation bar across all pages allowing access to Home, Products, Login/ Out / Register Page. 
 
-* There is defensive programming in place here so if not a user they will be brought to the login page.
+* This section is designed so both the users and admin can actively and continuously edit and make changes to their profile, so if for example you may want to gift a piece of art to a friend in another country you can keep your billing details and shipping details seperate.
+
+* There is defensive programming in place here so if not an dmin they will be brought to the login page.
+
+* The profile Page allows you to also edit your username and account information not just delivery and billing information.
 
 
-* And finally a footer with relevant links to various social media pages of the group.
+#### Edit Product Page
+* Initially there is a consistent navigation bar across all pages allowing access to Home, Products, Login/ Out / Register Page. 
 
-#### Manage Users Page
-* Initially there is a consistent navigation bar across all 3-5 pages allowing access to Home, Dashboard, New Sales, Manage Users, Login/ Out / Register Page.
+* Similiar to the add product page/ Product management page, this page allows the admin to actively make changes to the products so if there was an item that was not selling very well they can then chnage this to reflect and upcoming deal or clearance sale.
 
-* There is then Page Title "Manage Users" at the top of the screen
+* There is defensive programming in place here so if not an dmin they will be brought to the login page.
 
-* Below this is a button "Add Users", when clicked this will bring the admin to a new page to add a new user to the team. This is also linked to the MongoDB
-
-* This page contains a series of boxes, one for each user profile. Each User profile can be changed by the Manager, the purpose for this is so that in the case of a team member leaving but the sales need to be transferred to a new member of staff the sales manager can edit the username and password for the new member so the sales data has not been affected.
-
- * There is defensive programming in place here so if not the admin they will be brought to the login page.
-
-* And finally a footer with relevant links to various social media pages of the group.
-
+* There is an update or cancel button at the bottom to confirm the changes made as well.
+ 
 #### Login Page
-* Initially there is a consistent navigation bar across all 3-5 pages allowing access to Home, Dashboard, New Sales, Manage Users, Login/ Out / Register Page.
+* Initially there is a consistent navigation bar across all pages allowing access to Home, Products, Login/ Out / Register Page. 
 
 * This page contains a form where both users and admins can log into their account.
 
 * There is defensive programming in place here so if not a user they will be brought to the registration page.
-
-* And finally a footer with relevant links to various social media pages of the group.
 
 #### Features to Add in Future
 * Adding a CAPTCHA to the login page would reduce the volume of fake accounts or limit hacking.
 * Cookie and GDPR compliance page to allow users to have more control of how their data will be used.
 * It would be great to set up an FAQ page for this site as with older members of the group there can tend to be regular recurring questions. This could be added to the dashboard page.
 * Ideally I would love to add more into the dashboard where users could create a full user profile to include their own career goals and then to set markers with the manager for working towards these goals.
+* Remove checkout bug showing checkout section twice, this would be fixed by changing the classes and id's as well as putting in a new @media style to remove the mobile view once it goes past a certain screen size.
 
 
 ### Technologies
 * HTML - Hyper Text Markup Language
 * CSS - Cascading Style Sheets
-* Materialize (4.2.1) - Mobile Responsive Framework
+* Bootstrap 4 - Mobile Responsive Framework
 * Gitpod - Cloud Based IDE linked with Github
 * Github - Online repository for hosting site
 * Font Awesome - Provided a variety of font styles and icons used in the project
+* Google Fonts 
 * Auto prefixer - to help structure code when finished - https://autoprefixer.github.io/
 * HTML and CSS Validators - https://validator.w3.org/nu/#textarea / https://jigsaw.w3.org/css-validator/validator
 * Chrome Developer Tools - Provided continuous learning and development tools to ensure high quality mobile user experience
@@ -194,54 +180,48 @@ Here are my wireframes for multiple pages of the Predict Your Sales app.
 * JQuery
 * MongoDB
 * Heroku
+* Stripe
+* AWS S3 Buckets
+* SQLite
+* Balsamic wireframes
+* JShint
 
 
 ### Defensive Programming
-* There are various forms of defensive programming practices in this project used for each page of the site. The main functionality for this is to block anyone from getting access to make changes to sales information uploaded by staff.
-
-#### Sales Page
-* All visitors can view sales information as this is to encourage an open transparent workplace as well as allow other sales people to see colleagues' success which will hopefully motivate them to find and upload new sales for themselves.
-
+* There are various forms of defensive programming practices in this project used for each page of the site. The main functionality for this is to block anyone from getting access to make changes to profile or product information uploaded by the admin.
+ 
 * Users who are logged in to their own account will then have the option to edit or delete their own sales
-
-#### New Sales
-* This page is limited to users who are logged in to their own account. If an admin or user is not logged in then they will be redirected to the login page
-
-* Also if logged in to your own account you can only edit or delete your own sales so there is no chance of one person changing the data on someone else's sales.
-
+ 
 #### Manage Users
-* Only the admin has access to this page, if a user tries to access this page that is not the user, they will be redirected to login.
-* An Admin is the only person who can make changes to user accounts
-* They can also delete user accounts from the database
+* Only the admin has access to the admin page, if a user tries to access this page that is not the user, they will be redirected to login.
+* An Admin is the only person who can make changes to user accounts and to products
+* They can also delete user profiles from the database
 
 #### Passwords
 * In order to hide any password information I have used the Werkzeug hash method to hide each password in a secret key to keep sensitive information from the cookies, website and database.
 
 ### Testing
 #### Home Page
-*  The navigation bar was built in a container using materialize so to ensure this was mobile responsive I used Chrome developer tools regularly to ensure the navbars responsiveness. This was tested with chrome dev tools using Iphone 5, desktop and IMAC sizes.
+*  The navigation bar was built in a container using bootstrap so to ensure this was mobile responsive I used Chrome developer tools regularly to ensure the navbars responsiveness. This was tested with chrome dev tools using Iphone 5, desktop and IMAC sizes.
 * This included a title, icon and 3-5 options to navigate throughout the site's pages.
 *  When in mobile view the menu would take the burger icon shape and go on the right corner of the screen, when clicked this would become a dropdown for the rest of the menu.  
-* The Sales Section is one container, a series of collapsible cards.
-- The cards were tested by clicking the element to see if they would open up, if not then I checked the classes to ensure they were Materialize compliant.
-- When clicking the sale, it would drop down and you can then see the sale information uploaded on the new sale form.
-- In each card when logged in, the user could then see an edit or delete button for each sale. This only shows for the user that created the sale
-* The Search option was tested by first creating the function and search bar and then checking the mongo db index page to see if the categories were added correctly. I then went on to search for several items to ensure it was functioning correctly.
-* The bottom of the page consists of 4 links to various social media sites to allow the user to easily follow the groups social platforms.
+* The Products Section is one container, a series of collapsible rows and columns.
+- The products were tested by clicking the element to see if they would open up, if not then I checked the classes to ensure they were Bootstrap and CSS compliant.
+- When clicking the product, it would open up to the product details page and the information about that item would appear as well as an option to add to cart.
+- In each product when logged in as admin, the admin could then see an edit or delete button for each product. This only shows for the admin to ensure maximum product management capabilities and consistency.
+* The Search option was tested by first creating the function and search bar and then checking the mongo db index page to see if the categories and products were added correctly. I then went on to search for several items to ensure it was functioning correctly.
 * All links including the main button to get started have been clicked and checked to ensure they are fully functional in mobile and desktop view.
 * Lighthouse mobile testing system was used regularly to improve overall UX design and mobile experience.
 
-#### Dashboard Page
+#### Products Page
 * The navigation bar was built in a container using bootstrap so to ensure this was mobile responsive I used Chrome developer tools regularly to ensure the navbars responsiveness.
 * This included a title, icon and 3-5 options to navigate throughout the site's pages.
 * Each link has been tested by clicking and ensuring that if the link is to another area on the site that it opens in the same tab.
-* This page is primarily text based as it is an information and resources page. Therefore I had to carefully structure the cards in the center so they were mobile responsive. Below this I also included a series of helpful links and resources for salespeople and managers. Each link was also clicked to ensure it worked properly in a new tab
-
-* The bottom of the page consists of a disclaimer.
+* This page is inlcudes the base.html resource to limit the file size and allow the site ot be fully consistent. Therefore I had to carefully structure the products in the columns so they were mobile responsive. Below this I also included a link and resources for admins to amke edits or delete products however in future I will add a prompt to confirm the deletion before its made. Each link was also clicked to ensure it worked properly.
 * All links have been clicked and checked to ensure they are fully functional in mobile and desktop view.
 * Each link has been tested by clicking and ensuring that if the link is to another area on the site that it opens in the same tab for the navbar.
 
-#### New Sales Page
+#### New Products Page
 * The navigation bar was built in a container using bootstrap so to ensure this was mobile responsive I used Chrome developer tools regularly to ensure the navbars responsiveness.
 * This included a form where users would submit all sales information required to submit the sale to the app and database.
 * Multiple fields are required to limit the amount of poor data being uploaded to the database.
@@ -293,45 +273,59 @@ git commit -m ""
 git push 
 git push to heroku
 
-### Bug Fixes:
-* The bugs experienced in developing this application were Python related.
-* Thankfully I used Python and relied heavily on using print statements as well as getting Jinja feedback.
-* This was most helpful when testing if there were any function errors.
-* Also a good way for DB testing is to submit various forms and see if the data is received in the DB.
-* There were form bugs initially too, although some designs are intentional- the sale amount section does allow letters and numbers which is intentional as some users might want to have an early estimate and give a low and high figure e.g €10,000 low, €50,000 high
 
+#### Deploying to AWS S3
+at this stage in the project I had already deployed my project to Heroku successfully and now needed to add my media and static files to AWS. to do so I went through the following steps.
+1. Went to www.awsamazon.com
+2. Create an account - using free version with cap on deployments
+3. Go to Navbar and click S3 section
+4. Go to Buckets
+5. Create Bucket with similiar name to project
+6. Creata a policy - at this stage I ran into an issue as you need ot attach your ARN number to creat a policy but AWS was having an issue and would no accept the autogenerated ARN. to fix this I go the template for the base code used and included my own details. I also noticed several students having this issue so I shared my solution on the Code Institute Slack which helped out some students as well!
+7. Attached policy to bucket
+8. After this I created a user group 
+9. Then I attached the Group to the Bucket and policy
+10. at this stage I created a user for the group 
+11. I then proceeded to upload all of my project images to the bucket
+12. Finally I tested the deployment and project level changes were being reflected on S3.
+13. At this stage I notived some errors and actually removed all images, compressed them and reuploaded them.
+
+### Bug Fixes:
+* The bugs experienced in developing this application were CSS and Python related.
+* The biggest bug I have in this app is actually in the large screen version of the checkout page. 
+*  THE ISSUE: Due to some testing and validating my code with a HTML validator. When I used the page source code from the deployed site I received an error in my code with regards to having duplicate id's for two matching sections of the checkout page. I did contact the tutor support tem who advised that this was a common issues whihc was in the video tutorials and has since been amended. They said as this is a sizeable change to comment and explain this in my Readme file and that the assessment team will be used to this issue. Essentially this bug causes the checkout section of the app to load once in mobile view but twice when in desktop mode. The remedy for this would be to change the css styling and hide the mobile view in desktop mode. This would be a short term fix. Ideally I would actually like to seperate these further into seperate file altogether so there would be no chance of them interfering with one another. In terms of the validation error this shows an error for duplicate ID's which is causing the duplication of the checkout app section. This does not impact the performance of the site in any way however the UX is affected by this on the checkout page. Once the project has been assessed I plan on returning to this app and this will be my first bug fix! as well s this , I do plan on working with Ru and helping cater the app toward his aesthetic and change the styling of the project to reflect his persona and artistic style.
+* Thankfully I used Python and relied heavily on using print statements as well as getting Jinja feedback.
+* This was most helpful when testing if there were any function errors, I would print the statement to ensure the logic was correct.
+* Also a good way for DB testing is to submit various forms and see if the data is received in the DB.
+* I had an image bug when uploading to S3 one image had a slight spoelling change after the compression and therefore it showed up as an error and the al message appeared on the deployed version of the site. to remedy this I removed the image form the github version + the cloud and reuploaded it.
+* There were form bugs initially too, although some designs are intentional-  
 
 
 #### Form Issues Not Logging in DB
 Title: Form Issues
-Environment : new_sales.html
+Environment : add_product.html
 Steps to reproduce a Bug: In order to reproduce this bug, simply remove the {% extends "base.html" %}.
 Expected Result: Page will not load correctly (missing navbar)
 Actual Result: Emails were not sent
-Severity/Priority: High priority bug fix as without navbar there would be a very poor UI and lack of navigation
-[View bug commit and fix Here](https://github.com/VinBdev/Predict_Your_Sales/commit/38e41c55481f7ecd448bd8344cbf8ea99dc80354)
- 
- 
- 
+Severity/Priority: High priority bug fix as without navbar there would be a very poor UI and lack of navigation 
+  
 #### Passwords not hidden when created by user
 Title: Form Issues
 Environment : app.py
 Steps to reproduce a Bug: In order to reproduce this bug, simply remove hash section from app.py
 Expected Result: Passwords will not appear in MongoDB
 Actual Result: Passwords will appear in MongoDB
-Severity/Priority: High priority bug fix as without user info is not safe
-[View bug commit and fix Here](https://github.com/VinBdev/Predict_Your_Sales/commit/c5cedf0e47da177ffb89a801d2229785f5e5b3c5)
+Severity/Priority: High priority bug fix as without user info is not safe 
 
 #### Manage User page accessible by users
 Title: Permissions
-Environment : app.py
+Environment : profile/app.py
 Steps to reproduce a Bug: In order to reproduce this bug, simply change the edit_user function from app.py
 Expected Result: Users cannot edit other users
 Actual Result: Users can edit users
-Severity/Priority: High priority bug fix as without users can create dummy accounts and mess with data
-[View bug commit and fix Here](https://github.com/VinBdev/Predict_Your_Sales/commit/07f152609685896fc5440df5a6af23c1909989eb )
+Severity/Priority: High priority bug fix as without users can create dummy accounts and mess with data 
  
-26th of April
+ 
  
  
 #### Validating Code:
@@ -348,15 +342,26 @@ All files were put through the following validators:
 #### LMS content on Google maps & Email.js
 * For these sections I reflected back on the course to the lessons around functions, event listeners, setting up an api and working with maps/ email.js
 
+#### LMS content on Boutique Ado walkthoirugh project
+Due to the time limitations with the project I used the learning material from the course as core inspiration for developing this project.
+
 #### Youtube tutorials on Python best practices
-* The google maps team has their own youtube channel containing lots of videos and documentation to support development and marker clusters. https://www.youtube.com/watch?v=ommyvZnYwe8
+For this project I watched several youtube videos on creating full stack ecommerce sites such as:
+* [https://www.youtube.com/watch?v=ommyvZnYwe8]
+* [https://www.youtube.com/watch?v=yTpVTn0KAnI]
+* [https://www.youtube.com/watch?v=-c6jnwmbMsE]
+* [https://www.youtube.com/watch?v=zn1geTG3YrQ]
 
 #### Stack Overflow
 * Stack overflow was a great resource while using this project and navigating through javascript territory it allowed me to relate other developers problems to my own and then to reflect back on my own work using the feedback form other developers.
+* It was also incredibly helpful while working with python and following the indentation and syntax rules.
+* It was also very helpful when going through my python errors as well and validating anything that looked ouut of place.
+* https://stackoverflow.com/questions/64122001/local-variable-intent-referenced-before-assignment
+* https://stackoverflow.com/questions/10388033/csrf-verification-failed-request-aborted
 
 #### Content
-* All content in the about me section was written by me and is fictionally based on my own experiences in sales teams
-* The content written in the  app is all fictional especially all users names and info
+* All content in the about me section was written by me and is fictionally based on my childhood friend Ruadhan Murray
+* The content written in the  app is all fictional except the majority of art description information 
 
 #### Media
 Youtube and other articles referenced are as follows :
@@ -385,4 +390,4 @@ Youtube and other articles referenced are as follows :
 * Ru himself has began his journey of creating art again and would like to see about selling his art in the future. For this reason, I would love to add a bio section on the hompage but due to time constraints I was unable to do sobut will return in the comin weeks to add this feature.
 
 
-##### Thank you very much for reading my Readme.md file. I welcome feedback and hope that you have found this file beneficial while researching Predict Your Sales!
+##### Thank you very much for reading my Readme.md file. I welcome feedback and hope that you have found this file beneficial while researching Ru Design!
