@@ -267,7 +267,11 @@ form#signup_form.signup{
         padding: .4rem .4rem;
         font-size: .79rem;
    }
-    .increment-qty, .decrement-qty{
+   .increment-qty, .decrement-qty{
+    padding: .25 .25 !important;
+    }
+    #increment-qty, #decrement-qty{
         padding: .25 .25 !important;
    }
+   
 }
