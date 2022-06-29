@@ -269,9 +269,5 @@ form#signup_form.signup{
    }
    .increment-qty, .decrement-qty{
     padding: .25 .25 !important;
-    }
-    #increment-qty, #decrement-qty{
-        padding: .25 .25 !important;
-   }
-   
+    }    
 }
