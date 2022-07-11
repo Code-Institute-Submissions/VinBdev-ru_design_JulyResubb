@@ -1,4 +1,5 @@
 from django.db import models
+from profiles.models import UserProfile
 
 
 class Category(models.Model):
@@ -34,3 +35,16 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Review(models.Model):
+    product = models.ForeignKey('Product', related_name='reviews', on_delete=models.CASCADE)
+    time = models.DateTimeField(auto_now_add=True)
+    text = models.TextField()
+    author = models.ForeignKey(UserProfile, related_name='reviews', on_delete=models.CASCADE)
+    
+    class Meta:
+        ordering = ['-time']
+
+    def __str__(self):
+        return self.text
