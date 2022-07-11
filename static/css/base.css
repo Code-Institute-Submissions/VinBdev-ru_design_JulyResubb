@@ -271,3 +271,19 @@ form#signup_form.signup{
     padding: .25 .25 !important;
     }    
 }
+
+/* logout */
+.logout-p {
+    padding-top: 150px;
+    padding-left: 150px;
+    font-size: 2rem;
+    color: #000;
+    display: block;
+    align-content: center;
+}
+
+.logout-b{
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 2rem;
+}
