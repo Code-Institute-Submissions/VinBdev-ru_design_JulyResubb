@@ -105,25 +105,31 @@
       </div>
    </div>
 </div>
-<div class="reviews">
-   <form class="form mb-2" method="POST">
-      {% csrf_token %} 
-      {% for field in form %} 
-          {% if field.name != 'image' %}
-              {{ field | as_crispy_field }}
-          {% else %} 
-              {{ field }}
-          {% endif %}                         
-      {% endfor %}
-      <div class="text-right">
-          <a href="{% url 'products' %}" class="btn-btn-outline-black rounded-0">Cancel</a>
-          <button class="btn btn-black rounded-0" type="submit">Submit</button>
+<div class="container">
+   <div class="row">
+      <div class="col">
+         <div class="reviews">
+            <form class="form mb-2" method="POST">
+               {% csrf_token %} 
+               {% for field in form %} 
+                   {% if field.name != 'image' %}
+                       {{ field | as_crispy_field }}
+                   {% else %} 
+                       {{ field }}
+                   {% endif %}                         
+               {% endfor %}
+               <div class="text-right">
+                   <a href="{% url 'products' %}" class="btn-btn-outline-black rounded-0">Cancel</a>
+                   <button class="btn btn-black rounded-0" type="submit">Submit</button>
+               </div>
+           </form>
+            {% for review in reviews %}
+               <p>{{ review.text }}</p>
+               <hr>
+            {% endfor %}
+         </div>
       </div>
-  </form>
-   {% for review in reviews %}
-      <p>{{ review.text }}</p>
-      <hr>
-   {% endfor %}
+   </div>
 </div>
 {% endblock %}
 {% block postloadjs %}
