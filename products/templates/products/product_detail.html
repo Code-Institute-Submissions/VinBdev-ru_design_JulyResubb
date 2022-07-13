@@ -109,6 +109,7 @@
    <div class="row">
       <div class="col">
          <div class="reviews">
+            {% if request.user.is_authenticated %}
             <form class="form mb-2" method="POST">
                {% csrf_token %} 
                {% for field in form %} 
@@ -122,10 +123,11 @@
                    <a href="{% url 'products' %}" class="btn-btn-outline-black rounded-0">Cancel</a>
                    <button class="btn btn-black rounded-0" type="submit">Submit</button>
                </div>
-           </form>
+               </form>
+            {% endif %}
             {% for review in reviews %}
             <hr>
-               <p>{{ user.username }}  Comment: {{ review.text }}</p> 
+               <p>{{ review.author.user.username }}  Comment: {{ review.text }}</p> 
                <hr>
                <hr>
             {% endfor %}
