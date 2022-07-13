@@ -40,7 +40,7 @@ class Product(models.Model):
 class Review(models.Model):
     product = models.ForeignKey('Product', related_name='reviews', on_delete=models.CASCADE)
     time = models.DateTimeField(auto_now_add=True)
-    text = models.TextField()
+    text = models.TextField('Reviews Section')
     author = models.ForeignKey(UserProfile, related_name='reviews', on_delete=models.CASCADE)
     
     class Meta:
