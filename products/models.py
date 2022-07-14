@@ -48,3 +48,11 @@ class Review(models.Model):
 
     def __str__(self):
         return self.text
+
+
+class Favourite(models.Model): 
+    user_profile = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f'({self.product},favourite )'

@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 
 from .models import UserProfile
+from products.models import Favourite
 from .forms import UserProfileForm
 
 from checkout.models import Order
@@ -26,12 +27,15 @@ def profile(request):
     else:
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
+    favourites = Favourite.objects.filter(user_profile=profile)
+
 
     template = 'profiles/profile.html'
     context = {
         'form': form,
         'orders': orders,
-        'on_profile_page': True
+        'on_profile_page': True,
+        'favourites': favourites 
     }
     return render(request, template, context)
 

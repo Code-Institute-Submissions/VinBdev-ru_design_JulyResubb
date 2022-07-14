@@ -79,6 +79,14 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                Your favourites:
+                {% for favourite in favourites %}
+                    {{ favourite.product }}
+                {% endfor %}
+            </div>
+        </div>
     </div>
         {{ profile }}
 {% endblock %}

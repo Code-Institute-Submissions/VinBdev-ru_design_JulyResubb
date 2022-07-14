@@ -234,7 +234,19 @@ Here are my wireframes for multiple pages of the Ru Design.
 * All links have been clicked and checked to ensure they are fully functional in mobile and desktop view.
 * Each link has been tested by clicking and ensuring that if the link is to another area on the site that it opens in the same tab.
 * The checkbox function is not a required field as the same may not need approval.
-*
+
+#### Payment Pages
+* All payment pages have now been tested by following guidelines in Stripe documentation and by trying various forms of card payments with non registered member, registered memeber and super users
+* This was trilaled for both successfula and unsuccessful payment types
+
+#### Registration pages
+* All Login pages were tested by usine correct and incorrect details to ensure form validation was working correctly.
+* This was done with non registered member, registered memeber and super users to ensure full access
+
+#### Authentication
+* There is full secure authentication across the site to ensure non members cannot negatively impact the UX.
+* For exmaple in the comments and reviews section only members can create reviews for products.
+
 ### Lighthouse Results
 Performance = 87%
 Accessibility = 95%

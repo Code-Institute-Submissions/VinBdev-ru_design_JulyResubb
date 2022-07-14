@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
-from .models import Product, Category
+from .models import Product, Category, Favourite
 from .forms import ProductForm, ReviewForm
 from profiles.models import UserProfile
 
@@ -158,3 +158,19 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product has been deleted!')
     return redirect(reverse('products'))
+
+
+def add_favourite(request, product_id, user_id):
+    user = get_object_or_404(UserProfile, pk=user_id)
+    product = get_object_or_404(Product, pk=product_id)
+    Favourite.objects.create(user_profile=user, product=product)
+    return redirect(reverse('product_detail', args=[product_id]))
+
+
+def remove_favourite(request, product_id,):
+    user = get_object_or_404(UserProfile, user=request.user)
+    product = get_object_or_404(Product, pk=product_id) 
+      
+    Favourite.objects.filter(product=product, user=user).delete()
+    return redirect(reverse('product_detail', args=[product.id]))
+
