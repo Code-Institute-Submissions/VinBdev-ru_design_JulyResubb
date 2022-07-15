@@ -248,8 +248,8 @@ Here are my wireframes for multiple pages of the Ru Design.
 * For exmaple in the comments and reviews section only members can create reviews for products.
 
 ### Lighthouse Results
-Performance = 87%
-Accessibility = 95%
+Performance = 91%
+Accessibility = 98%
 Best Practices = 100%
 SEO = 91%
 
@@ -311,7 +311,8 @@ At this stage in the project I had already deployed my project to Heroku success
 * This was most helpful when testing if there were any function errors, I would print the statement to ensure the logic was correct.
 * Also a good way for DB testing is to submit various forms and see if the data is received in the DB.
 * I had an image bug when uploading to S3 one image had a slight spoelling change after the compression and therefore it showed up as an error and the al message appeared on the deployed version of the site. To remedy this I removed the image form the github version + the cloud and reuploaded it.
-* There were form bugs initially too, although some designs are intentional-  
+* There were form bugs initially too, although some designs are intentional
+* I had several bug issues with the models but this was remediated by changing and adjusting the attributes in the views.
 
 
 #### Form Issues Not Logging in DB
